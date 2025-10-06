@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Image Hub – Free AI Tools for Image Generation</title>
+  <meta name="description" content="Use Gemini & ChatGPT to generate stunning AI images with ready-to-use prompts." />
+  
+  <!-- Open Graph / Social Meta Tags -->
+  <meta property="og:title" content="AI Image Hub – Free AI Tools for Image Generation" />
+  <meta property="og:description" content="Use Gemini & ChatGPT to generate stunning AI images with ready-to-use prompts." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <meta property="og:image" content="https://placehold.co/1200x630/6366f1/white?text=AI+Image+Hub" />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎨</text></svg>">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom Styles -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    .fade-in.appear {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .card-hover {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Top Ad Slot (728x90) -->
+  <div class="w-full bg-white py-2">
+    <div class="max-w-6xl mx-auto px-4 flex justify-center">
+      <!-- Adsterra Banner Code Here (728x90) -->
+      <div class="w-full max-w-[728px] h-[90px] bg-gray-100 border border-dashed border-gray-300 flex items-center justify-center text-gray-500 text-sm">
+        <script type="text/javascript">
+	atOptions = {
+		'key' : '92c99f988cc3248604a8ef6a03203bca',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//dealdivorceathwart.com/92c99f988cc3248604a8ef6a03203bca/invoke.js"></script>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="sticky top-0 z-40 bg-white shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-4">
+      <div class="flex justify-between items-center">
+        <h1 class="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+          AI Image Hub
+        </h1>
+        <nav class="hidden md:flex space-x-6">
+          <a href="#home" class="font-medium hover:text-indigo-600 transition">Home</a>
+          <a href="#tools" class="font-medium hover:text-indigo-600 transition">Tools</a>
+          <a href="#prompts" class="font-medium hover:text-indigo-600 transition">Prompts</a>
+          <a href="#contact" class="font-medium hover:text-indigo-600 transition">Contact</a>
+        </nav>
+        <button id="menu-toggle" class="md:hidden text-gray-600">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden mt-4 pb-2 space-y-2">
+        <a href="#home" class="block font-medium hover:text-indigo-600">Home</a>
+        <a href="#tools" class="block font-medium hover:text-indigo-600">Tools</a>
+        <a href="#prompts" class="block font-medium hover:text-indigo-600">Prompts</a>
+        <a href="#contact" class="block font-medium hover:text-indigo-600">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Intro Section -->
+    <section id="home" class="py-16 md:py-20 bg-gradient-to-br from-indigo-50 via-white to-purple-50">
+      <div class="max-w-4xl mx-auto px-4 text-center fade-in">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">Discover Free AI Tools for Image Generation</h2>
+        <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+          Learn how to create stunning visuals using AI image generators like Gemini & ChatGPT.
+        </p>
+
+        <!-- Key Capabilities -->
+        <div class="bg-white/70 backdrop-blur-sm rounded-xl p-6 mb-10 max-w-3xl mx-auto border border-white/50">
+          <h3 class="font-semibold text-gray-800 mb-3">With AI image generators, you can create:</h3>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 text-left text-gray-700">
+            <li class="flex items-start">
+              <span class="text-indigo-600 mr-2">•</span> Professional logos & branding assets
+            </li>
+            <li class="flex items-start">
+              <span class="text-indigo-600 mr-2">•</span> Realistic or artistic portraits
+            </li>
+            <li class="flex items-start">
+              <span class="text-indigo-600 mr-2">•</span> Fantasy & sci-fi landscapes
+            </li>
+            <li class="flex items-start">
+              <span class="text-indigo-600 mr-2">•</span> Social media graphics & banners
+            </li>
+            <li class="flex items-start">
+              <span class="text-indigo-600 mr-2">•</span> Product mockups & concept art
+            </li>
+            <li class="flex items-start">
+              <span class="text-indigo-600 mr-2">•</span> Custom illustrations for blogs or books
+            </li>
+          </ul>
+        </div>
+
+        <a
+          href="https://whatsapp.com/channel/0029VbBMcgRGU3BCtQExnw29"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition transform hover:scale-105"
+        >
+          Join My WhatsApp Channel
+        </a>
+      </div>
+    </section>
+
+    <!-- Prompts Section -->
+    <section id="prompts" class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-12 fade-in">
+          <h2 class="text-3xl font-bold mb-4">Ready-to-Use Prompts</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Copy and use these example prompts for AI image generation.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Prompt Card 1 -->
+          <div class="fade-in glass-card rounded-xl p-6 shadow-md">
+            <h3 class="text-xl font-semibold mb-3">Cinematic Portrait Prompt</h3>
+            <p class="text-gray-700 mb-4 italic">
+              A cinematic portrait of a man standing under neon lights in a rainy Tokyo street at night, moody lighting, 85mm lens, shallow depth of field, film grain, ultra-realistic.
+            </p>
+            <button
+              class="copy-btn text-sm bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700 transition"
+              data-prompt="A cinematic portrait of a man standing under neon lights in a rainy Tokyo street at night, moody lighting, 85mm lens, shallow depth of field, film grain, ultra-realistic."
+            >
+              Copy Prompt
+            </button>
+          </div>
+
+          <!-- Prompt Card 2 -->
+          <div class="fade-in glass-card rounded-xl p-6 shadow-md">
+            <h3 class="text-xl font-semibold mb-3">Fantasy Landscape Prompt</h3>
+            <p class="text-gray-700 mb-4 italic">
+              A glowing forest with mystical light, ancient trees with bioluminescent leaves, misty atmosphere, ultra-realistic 8K, fantasy concept art, cinematic composition.
+            </p>
+            <button
+              class="copy-btn text-sm bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700 transition"
+              data-prompt="A glowing forest with mystical light, ancient trees with bioluminescent leaves, misty atmosphere, ultra-realistic 8K, fantasy concept art, cinematic composition."
+            >
+              Copy Prompt
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI Tools Section -->
+    <section id="tools" class="py-16 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-12 fade-in">
+          <h2 class="text-3xl font-bold mb-4">AI Tools for Image Creation</h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Gemini Card -->
+          <div class="fade-in card-hover glass-card rounded-xl p-8 shadow-lg text-center">
+            <h3 class="text-2xl font-bold mb-4 text-indigo-600">Gemini</h3>
+            <p class="text-gray-700 mb-6">
+              Use Google Gemini to generate AI-powered image prompts and ideas.
+            </p>
+            <a
+              href="https://gemini.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-6 rounded-lg transition"
+            >
+              Open Gemini
+            </a>
+          </div>
+
+          <!-- ChatGPT Card -->
+          <div class="fade-in card-hover glass-card rounded-xl p-8 shadow-lg text-center">
+            <h3 class="text-2xl font-bold mb-4 text-green-600">ChatGPT</h3>
+            <p class="text-gray-700 mb-6">
+              Use ChatGPT to create and refine powerful image generation prompts.
+            </p>
+            <a
+              href="https://chat.openai.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-block bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-6 rounded-lg transition"
+            >
+              Open ChatGPT
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer with Bottom Ad Slot -->
+  <footer id="contact" class="bg-white border-t pt-6 pb-10">
+    <div class="max-w-6xl mx-auto px-4">
+      <!-- Bottom Adsterra Banner (728x90) -->
+      <div class="flex justify-center mb-8">
+        <!-- Bottom Adsterra Banner Code Here (728x90) -->
+        <div class="w-full max-w-[728px] h-[90px] bg-gray-100 border border-dashed border-gray-300 flex items-center justify-center text-gray-500 text-sm">
+          <script type="text/javascript">
+	atOptions = {
+		'key' : '92c99f988cc3248604a8ef6a03203bca',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//dealdivorceathwart.com/92c99f988cc3248604a8ef6a03203bca/invoke.js"></script>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <p class="text-gray-600 mb-4">Made by <span class="font-semibold">@samii1ai</span></p>
+        <div class="flex justify-center space-x-6 text-sm text-gray-500">
+          <a href="#" class="hover:text-gray-800 transition"></a>
+          <a href="#" class="hover:text-gray-800 transition"></a>
+          <a href="#" class="hover:text-gray-800 transition"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-6 right-6 bg-gray-800 text-white py-2 px-4 rounded-lg opacity-0 transition-opacity duration-300 pointer-events-none">
+    Copied!
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    // Mobile Menu Toggle
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+
+    // Fade-in on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('appear');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // Copy to clipboard + toast
+    document.querySelectorAll('.copy-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        const text = button.getAttribute('data-prompt');
+        navigator.clipboard.writeText(text).then(() => {
+          const toast = document.getElementById('toast');
+          toast.classList.remove('opacity-0');
+          toast.classList.add('opacity-100');
+          setTimeout(() => {
+            toast.classList.remove('opacity-100');
+            toast.classList.add('opacity-0');
+          }, 2000);
+        });
+      });
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          window.scrollTo({
+            top: target.offsetTop - 80,
+            behavior: 'smooth'
+          });
+          // Close mobile menu if open
+          document.getElementById('mobile-menu').classList.add('hidden');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
